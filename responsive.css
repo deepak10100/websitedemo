@@ -1,0 +1,102 @@
+/* Laptop */
+@media (max-width: 1200px) {
+    body{
+        background-color: blue;
+    }
+    .navcol2 ul{
+    display: none;
+}
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+ body{
+        background-color: skyblue;
+    }
+    .header{
+            gap: 150px;
+    }
+    .content h1{
+font-size:50px;
+}
+.navcol2 ul{
+    display: none;
+}
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+ body{
+        background-color: rebeccapurple;
+    }
+    .header{
+           gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .header-1 {
+  
+    gap: 20px;
+}
+.item{
+height:700px;
+}
+
+.container{
+left:30px;
+right:30px;
+}
+
+.content h1{
+font-size:40px;
+}
+
+.content p{
+font-size:18px;
+}
+
+
+
+.owl-prev{
+left:10px;
+}
+
+.owl-next{
+right:10px;
+}
+.navcol3-2{
+    display: none;
+}
+.navrow{
+    margin-top:30px;
+}
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    body{
+        background-color: brown;
+    }
+    .header-1{
+        display: flex;
+                flex-direction: column;
+        gap: 10px;
+    }
+    .content h1{
+font-size:32px;
+}
+
+.content span{
+font-size:14px;
+}
+
+.orange-btn,
+.dark-btn{
+text-align:center;
+}
+.navrow{
+    margin-top:50px;
+}
+}
