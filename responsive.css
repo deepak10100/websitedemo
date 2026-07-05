@@ -72,6 +72,12 @@ right:10px;
 .navrow{
     margin-top:30px;
 }
+.right{
+    right: 0;
+    text-align: end;
+    margin-top: -27px;
+            padding: 0 80px;
+}
 }
 
 /* Small Mobile */
