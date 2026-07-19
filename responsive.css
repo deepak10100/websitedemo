@@ -6,6 +6,11 @@
     .navcol2 ul{
     display: none;
 }
+.contructionsecrow{
+    padding: 40px;
+}
+
+
 }
 
 /* Tablet */
@@ -13,6 +18,24 @@
  body{
         background-color: skyblue;
     }
+    .team-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+.blog-content h3{
+
+    font-size:30px;
+
+}
+
+.heading h2{
+
+font-size:42px;
+
+}
+
+
     .header{
             gap: 150px;
     }
@@ -22,6 +45,113 @@ font-size:50px;
 .navcol2 ul{
     display: none;
 }
+.row{
+    flex-direction: column;
+    padding:  0 20px;
+    align-items: center;
+}
+.contructionsec{
+    height: auto;
+}
+.contructionsecrow{
+    padding: 40px;
+    flex-direction: column;
+}
+.contructionsecrow .contructionseccol-lg-6 {
+  width: 100%;
+}
+.container-section{
+    flex-direction:column;
+}
+
+.left-content,
+.right-image{
+    width:100%;
+}
+
+.left-content{
+    padding:60px 40px;
+}
+
+.left-content h2{
+    font-size:45px;
+}
+
+.feature-list{
+    grid-template-columns:1fr;
+}
+
+.play-btn{
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.right-image{
+    height:500px;
+}
+.work-process-steps{
+
+grid-template-columns:1fr;
+gap:50px;
+
+}
+
+.work-process-progress-wrapper{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.work-process-heading h2{
+
+font-size:40px;
+
+}
+.feedback-heading h2{
+
+    font-size:50px;
+
+}
+
+.feedback-card{
+
+    padding:30px;
+
+} 
+.consultation-left h2{
+
+    font-size:45px;
+
+}
+
+
+.consultation-left p{
+
+    font-size:22px;
+
+}
+
+
+.consultation-right a{
+
+    padding:25px 40px;
+    font-size:22px;
+
+}  
+
+.news-heading h2{
+
+    font-size:55px;
+
+}
+.footer-container{
+
+grid-template-columns:
+repeat(2,1fr);
+
+}
+
 }
 
 /* Mobile */
@@ -29,6 +159,61 @@ font-size:50px;
  body{
         background-color: rebeccapurple;
     }
+    .team-container{
+
+grid-template-columns:1fr;
+
+}
+.footer-container{
+
+grid-template-columns:1fr;
+
+gap:50px;
+
+padding-top:150px;
+
+}
+
+
+.footer-brand-box{
+
+width:95%;
+padding:30px;
+
+}
+
+
+.footer-box h3{
+
+font-size:28px;
+
+}
+
+
+.newsletter input{
+
+height:65px;
+
+}
+
+
+.newsletter button{
+
+width:65px;
+
+}
+
+.team{
+
+padding:70px 20px;
+
+}
+
+.heading h2{
+
+font-size:35px;
+
+}
     .header{
            gap: 10px;
         flex-direction: column;
@@ -44,7 +229,7 @@ font-size:50px;
 height:700px;
 }
 
-.container{
+.container-section{
 left:30px;
 right:30px;
 }
@@ -76,8 +261,328 @@ right:10px;
     right: 0;
     text-align: end;
     margin-top: -27px;
-            padding: 0 80px;
+            padding: 0 50px;
 }
+.row{
+    flex-direction: column;
+    padding:  0 20px;
+    align-items: center;
+    justify-content: center;
+}
+.about-us-img-wrap img{
+    width: 100%;
+    object-fit: cover;
+}
+.row-rightcol-sm-6 {
+
+  width: 60%;
+ 
+}
+.left-content{
+    padding:45px 20px;
+}
+
+.sub-title{
+    font-size:14px;
+}
+
+.left-content h2{
+    font-size:34px;
+    margin-bottom:40px;
+}
+
+.feature-item{
+    gap:15px;
+}
+
+.icon{
+    width:42px;
+    height:42px;
+    min-width:42px;
+    font-size:18px;
+}
+
+.feature-item p{
+    font-size:17px;
+    line-height:1.6;
+}
+
+.play-btn{
+    width:70px;
+    height:70px;
+    font-size:25px;
+}
+
+.right-image{
+    height:350px;
+}
+.work-process-box{
+
+width:92%;
+padding:50px 20px;
+
+}
+
+.work-process-progress-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.work-process-heading h2{
+
+font-size:32px;
+
+}
+
+.work-process-card h1{
+
+font-size:70px;
+
+}
+.feedback-heading h2{
+
+    font-size:40px;
+
+}
+
+
+.feedback-slider .owl-prev{
+
+    left:5px;
+
+}
+
+
+.feedback-slider .owl-next{
+
+    right:5px;
+
+}
+
+
+.client-info h4{
+
+    font-size:24px;
+
+}
+.consultation-section{
+
+    flex-direction:column;
+
+}
+
+
+.consultation-left{
+
+    width:100%;
+    clip-path:none;
+
+    padding:80px 30px;
+    min-height:auto;
+
+}
+
+
+.consultation-right{
+
+    width:100%;
+    min-height:250px;
+
+}
+
+
+.consultation-left h2{
+
+    font-size:35px;
+
+}
+
+
+.consultation-left p{
+
+    font-size:18px;
+
+}
+
+
+.consultation-right a{
+
+    padding:20px 35px;
+    font-size:18px;
+
+}
+
+.news-section{
+
+    padding:90px 20px;
+
+}
+
+
+.news-heading h2{
+
+    font-size:42px;
+
+}
+
+
+.news-heading span{
+
+    font-size:16px;
+
+}
+.blog-section{
+
+    padding:80px 15px;
+
+}
+
+
+.blog-content{
+
+    padding:25px;
+
+}
+
+
+.blog-content h3{
+
+    font-size:25px;
+
+}
+
+
+.blog-info{
+
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+
+.blog-info span{
+
+    font-size:18px;
+
+}
+
+
+.blog-bottom{
+
+    flex-wrap:wrap;
+    gap:15px;
+
+}
+.footer-brand-slider{
+    flex-direction: column;
+    gap: 20px;
+}
+
+}
+
+
+@media(max-width:576px){
+
+
+.blog-image img{
+
+    height:250px;
+
+}
+
+
+.blog-content h3{
+
+    font-size:22px;
+
+}
+
+
+.blog-info span{
+
+    font-size:16px;
+
+}
+
+
+.blog-bottom span{
+
+    font-size:16px;
+
+}
+
+
+.blog-bottom a{
+
+    font-size:18px;
+
+}
+
+
+.blog-slider .owl-prev{
+
+    left:5px;
+
+}
+
+
+.blog-slider .owl-next{
+
+    right:5px;
+
+}
+
+.feedback-section{
+
+    padding:80px 15px;
+
+}
+
+
+.feedback-heading h2{
+
+    font-size:32px;
+
+}
+
+
+.feedback-card{
+
+    padding:25px;
+
+}
+
+
+.feedback-card p{
+
+    font-size:16px;
+    line-height:1.8;
+
+}
+
+
+.client-info img{
+
+    width:55px;
+    height:55px;
+
+}
+
+
+.client-info h4{
+
+    font-size:20px;
+
+}
+
+
+.client-info span{
+
+    font-size:14px;
+
+}
+
 }
 
 /* Small Mobile */
@@ -105,4 +610,32 @@ text-align:center;
 .navrow{
     margin-top:50px;
 }
+.row-rightcol-sm-6 {
+
+  width: 100%;
+ 
+}
+.news-heading h2{
+
+    font-size:32px;
+    line-height:1.5;
+
+}
+
+
+.news-heading span{
+
+    font-size:14px;
+    gap:8px;
+
+}
+
+
+.news-heading span i{
+
+    width:12px;
+    height:12px;
+
+}
+
 }
