@@ -478,6 +478,12 @@ font-size:70px;
 
 @media(max-width:576px){
 
+.footer-container{
+
+grid-template-columns:
+repeat(2,1fr);
+padding-top:100% ;
+}
 
 .blog-image img{
 
