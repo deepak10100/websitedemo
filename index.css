@@ -446,7 +446,7 @@ text-decoration:none;
 /* LEFT */
 
 .left-content{
-    width:55%;
+    /* width:55%; */
     background:#0d3145;
     color:#fff;
     padding:90px 70px;
@@ -504,7 +504,7 @@ text-decoration:none;
 /* RIGHT */
 
 .right-image{
-    width:45%;
+    /* width:45%; */
     position:relative;
 }
 
@@ -535,7 +535,7 @@ text-decoration:none;
 
 .team{
 
-padding:100px 8%;
+/* padding:100px 8%; */
 
 }
 
@@ -663,7 +663,7 @@ padding:100px 0;
 width:85%;
 margin:auto;
 background:#fff;
-padding:70px 50px;
+/* padding:70px 50px; */
 box-shadow:0 15px 40px rgba(0,0,0,.08);
 
 }
@@ -1326,7 +1326,7 @@ Brand Slider
 
     background:#ff5e14;
 
-    padding:50px;
+    padding:50px 0;
 
     border-radius:8px;
 
