@@ -144,8 +144,9 @@ font-size:40px;
 
 grid-template-columns:
 repeat(2,1fr);
-
+padding-top:100% ;
 }
+
 
 }
 
