@@ -582,6 +582,13 @@ padding-top:100% ;
     font-size:14px;
 
 }
+.navcol3{
+       display: flex;
+    gap: 10px;
+}
+.navcol3-3{
+    display: block;
+}
 
 }
 
@@ -658,4 +665,5 @@ text-align:center;
     width: 100%;
     height: auto;
 }
+
 }

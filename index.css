@@ -29,6 +29,9 @@
 .headingfont{
      font-family: "Rajdhani", sans-serif;
 }
+a{
+    color: black;
+}
 .header{
     display: flex;
     justify-content: space-around;
@@ -55,10 +58,22 @@
     color: white;
 }
 .font-14{
-    font-size: 14px;
+    font-size: 14px !important;
+}
+.font-16{
+    font-size: 16px !important;
+    color: #FF5E15;
+    font-weight: 700;
+}
+.font-18{
+    font-size: 18px !important;
 }
 .bold-700{
-    font-weight: 700;
+    font-weight: 700 !important;
+}
+.font-50{
+    font-size: 50px !important;
+    font-family: "Rajdhani", sans-serif;
 }
 
 .container-md
@@ -77,7 +92,7 @@
     width: 80%;
     margin: 0 auto;
 
-    background: #fff;
+    background: #fefefe;
 
     position: absolute;
     top: 60px;
@@ -94,6 +109,10 @@
 .navcol2 ul li{
     font-size: 18px;
     font-weight: 500;
+    
+}
+.navcol2 ul li a{
+    color: black;
 }
 .navcol3-2{
 border-radius: 0;
@@ -105,6 +124,7 @@ border-radius: 0;
     cursor: pointer;
     transition: all 0.3s ease 0s;
    background-color: #ff5e15;
+   color: white;
 
 }
 .navcol3-1{
@@ -114,6 +134,8 @@ border-radius: 0;
     /* min-width: 42px; */
     text-align: center;
     font-size: 16px;
+     background-color: rgba(241, 240, 240, 0.971);
+     border: none;
 }
 .navcol3-3{
      padding: 18px 15px;
@@ -122,6 +144,9 @@ border-radius: 0;
     /* min-width: 42px; */
     text-align: center;
     font-size: 16px;
+         background-color: rgba(241, 240, 240, 0.971);
+border: none;
+display: none;
 }
 .hero{
     height:100vh;
@@ -283,6 +308,12 @@ text-decoration:none;
     align-items: center;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 50px;
+}
+.animated a{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
 }
 .contructionsecrow .contructionseccol-lg-6{
     width: 50%;
@@ -304,10 +335,18 @@ text-decoration:none;
 
 
 .ltn__feature-icon {
+        /* font-size: 60px; */
+    margin-bottom: 20px;
     font-size: 60px;
+    line-height: 1;
+    color: #FF5E15;
 }
 .ltn__feature-info h3{
     font-size: 24px;
+        margin: 25px 0;
+}
+.mgb{
+    margin-bottom: 20px;
 }
 
 .btn-wrapper{
@@ -371,13 +410,13 @@ text-decoration:none;
 
 .property-content span{
     color:#888;
-    font-size:14px;
+    font-size:16px;
     display:block;
     margin-bottom:15px;
 }
 
 .property-content h3{
-    font-size:34px;
+    font-size:18px;
     margin-bottom:20px;
     color:#08254d;
 }
@@ -385,7 +424,7 @@ text-decoration:none;
 .property-content a{
     color:#ff5b1f;
     text-decoration:none;
-    font-size:20px;
+    font-size:16px;
 }
 
 /* Owl */
@@ -457,7 +496,7 @@ text-decoration:none;
     align-items:center;
     gap:12px;
     color:#ff6b00;
-    font-size:17px;
+    font-size:16px;
     font-weight:600;
     margin-bottom:30px;
 }
@@ -469,7 +508,8 @@ text-decoration:none;
 }
 
 .left-content h2{
-    font-size:62px;
+    font-size:50px;
+    font-weight: 700;
     line-height:1.2;
     margin-bottom:70px;
 }
@@ -497,7 +537,7 @@ text-decoration:none;
 }
 
 .feature-item p{
-    font-size:22px;
+    font-size:16px;
     line-height:1.7;
 }
 
@@ -626,7 +666,7 @@ padding:25px 10px;
 
 .team-containercontent h3{
 
-font-size:22px;
+font-size:20px;
 
 margin-bottom:12px;
 
@@ -636,7 +676,7 @@ color:#16243b;
 
 .team-containercontent p{
 
-font-size:13px;
+font-size:16px;
 
 color:#ff5e14;
 
@@ -663,7 +703,7 @@ padding:100px 0;
 width:85%;
 margin:auto;
 background:#fff;
-/* padding:70px 50px; */
+padding:70px 10px;
 box-shadow:0 15px 40px rgba(0,0,0,.08);
 
 }
@@ -736,7 +776,7 @@ margin-bottom:20px;
 
 .work-process-card h3{
 
-font-size:23px;
+font-size:24px;
 margin-bottom:15px;
 color:#1d2d42;
 
@@ -744,7 +784,7 @@ color:#1d2d42;
 
 .work-process-card p{
 
-font-size:15px;
+font-size:14px;
 line-height:1.8;
 color:#777;
 
@@ -821,9 +861,10 @@ align-items:center;
 
 .work-process-progress-item h4{
 
-margin-top:20px;
+margin-top:24px;
 font-size:18px;
 color:#1d2d42;
+font-weight: 700;
 
 }
 
@@ -924,7 +965,7 @@ color:#777;
 
 .client-info h4{
 
-    font-size:30px;
+    font-size:18px;
     color:#081f43;
     margin-bottom:10px;
 
@@ -933,7 +974,7 @@ color:#777;
 
 .client-info span{
 
-    font-size:16px;
+    font-size:14px;
     color:#666;
 
 }
@@ -987,7 +1028,7 @@ color:#777;
 
 .feedback-slider .owl-next{
 
-    right:-90px;
+    right:0px;
 
 }
 
@@ -1033,7 +1074,7 @@ color:#777;
 
 .consultation-left h2{
 
-    font-size:65px;
+    font-size:44px;
     margin-bottom:30px;
     font-weight:800;
 
@@ -1042,7 +1083,7 @@ color:#777;
 
 .consultation-left p{
 
-    font-size:28px;
+    font-size:16px;
 
 }
 
@@ -1186,7 +1227,7 @@ color:#777;
 
 .blog-info span{
 
-    font-size:22px;
+    font-size:14px;
     color:#1f3145;
 
 }
@@ -1202,10 +1243,10 @@ color:#777;
 
 .blog-content h3{
 
-    font-size:38px;
+    font-size:22px;
     line-height:1.5;
     color:#081f43;
-    margin-bottom:40px;
+    margin-bottom:20px;
 
 }
 
@@ -1214,7 +1255,7 @@ color:#777;
 
     border:none;
     border-top:1px solid #ddd;
-    margin-bottom:35px;
+    margin-bottom:20px;
 
 }
 
@@ -1230,7 +1271,7 @@ color:#777;
 
 .blog-bottom span{
 
-    font-size:20px;
+    font-size:14px;
     color:#444;
 
 }
@@ -1247,7 +1288,7 @@ color:#777;
 
     color:#ff5e14;
     text-decoration:none;
-    font-size:22px;
+    font-size:14px;
     font-weight:700;
 
 }
@@ -1271,14 +1312,14 @@ color:#777;
 
 .blog-slider .owl-prev{
 
-    left:-80px;
+    /* left:-80px; */
 
 }
 
 
 .blog-slider .owl-next{
 
-    right:-80px;
+    /* right:-80px; */
 
 }
 
@@ -1361,7 +1402,7 @@ Footer
 .footer-box h3{
 
     color:white;
-    font-size:35px;
+    font-size:22px;
     margin-bottom:40px;
 
 }
@@ -1372,7 +1413,7 @@ Footer
     display:block;
     text-decoration:none;
     color:white;
-
+font-size: 16px;
     margin-bottom:28px;
     transition:.4s;
 
