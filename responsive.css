@@ -1,8 +1,6 @@
 /* Laptop */
 @media (max-width: 1200px) {
-    body{
-        background-color: blue;
-    }
+    
     .navcol2 ul{
     display: none;
 }
@@ -15,9 +13,7 @@
 
 /* Tablet */
 @media (max-width: 992px) {
- body{
-        background-color: skyblue;
-    }
+ 
     .team-container{
 
 grid-template-columns:repeat(2,1fr);
@@ -152,9 +148,7 @@ padding-top:100% ;
 
 /* Mobile */
 @media (max-width: 768px) {
- body{
-        background-color: rebeccapurple;
-    }
+
     .team-container{
 
 grid-template-columns:1fr;
@@ -594,9 +588,7 @@ padding-top:100% ;
 
 /* Small Mobile */
 @media (max-width: 480px) {
-    body{
-        background-color: brown;
-    }
+  
     .header-1{
         display: flex;
                 flex-direction: column;
